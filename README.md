@@ -1,5 +1,5 @@
 # How To Build A Chatbot - Part 1
-Learn to build a facebook chatbot using Python and Flask
+Learn to build a facebook chatbot using Python and Flask ( work in progress... )
 
 ### Table of Contents
 
