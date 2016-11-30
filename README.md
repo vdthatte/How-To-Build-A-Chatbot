@@ -1,12 +1,12 @@
-# How To Build A Chatbot
+# How To Build A Chatbot - Part 1
 Learn to build a facebook chatbot using Python and Flask
 
 
 ### Create a Facebook Page and App
 
-### Setup the Software
+### Stuff to install and setup
 
-#### Prereq: Do you have python installed on your lapt
+#### Prereq: Do you have python installed on your laptop
 
 #### 1. Setup a Virtual Environment for this project
 
@@ -14,9 +14,35 @@ Learn to build a facebook chatbot using Python and Flask
 
 #### 3. Install Dependencies
 
-###  Start Coding!
+### Setting up your first flask server
 
-#### verify method
+```python 
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+if __name__ == "__main__":
+    app.run()
+
+```
+
+Open localhost:5000
+
+```python
+
+./ngrok http 5000
+
+```
+
+
+###  Code Breakdown
+
+#### verify() method
+
 ```python
 
 @app.route('/', methods=['GET'])
@@ -31,7 +57,9 @@ def verify():
 
 ````
 
-#### webhook method
+
+
+#### webhook() method
 
 ```python
 
@@ -75,7 +103,7 @@ def webhook():
 
 ```
 
-#### send_message method
+#### send_message() method
 
 
 ```python
