@@ -1,6 +1,9 @@
 # How To Build A Chatbot - Part 1
 Learn to build a facebook chatbot using Python and Flask
 
+### Summary
+[Core Breakdown](Code Breakdown)
+
 
 ### Create a Facebook Page and App
 
