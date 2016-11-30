@@ -2,7 +2,7 @@
 Learn to build a facebook chatbot using Python and Flask
 
 ### Summary
-[Core Breakdown](###Code-Breakdown)
+[Core Breakdown](#code-breakdown)
 
 
 ### Create a Facebook Page and App
