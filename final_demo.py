@@ -63,7 +63,7 @@ def send_message(recipient_id, message_text):
     # Prepare your package
 
     params = {
-        "access_token": "EAAYwt0UP4psBAGANjPbNrkCg3WZCrz15ZAkBZB1fchNPzj3d8F4tZBs6du6kB0b5TwIZCNVUJZAuy3BnAi9fHSuJuuR2ZA0hNrx2IRmW4hH62C1ZBarQaOSMMtad8JneBf0uV3GS3rITztTk0l4NCBRr5xkeyyaEBlE6pBB3RQe1HAZDZD"
+        "access_token": "PAGE_ACCESS_TOKEN_HERE"
     }
     headers = {
         "Content-Type": "application/json"
