@@ -21,17 +21,17 @@ We'll get to [Part 2]() if we have enough time.
   
 ### Create a Facebook Page
 
-After you've created a page, click on this to create a Facebook App [Link](https://developers.facebook.com/quickstarts/?platform=web) to access FB's developer's console.
+After you've created a page, click on this [Link](https://developers.facebook.com/quickstarts/?platform=web) to create a Facebook App to access FB's developer's console.
 
 ### Stuff to install and setup
 
-#### Prereq: Make sure you have python installed on your laptop
+Prereq: Make sure you have python installed on your laptop
 
-#### 2. Download Project Files
+#### Download Project Files
 
 You can download the files [here]()
 
-#### 3. Install Dependencies
+#### Install Dependencies
 
 Navigate into the downloaded folder using ```cd``` and once you reach the root folder run the following command in your terminal.
 
@@ -177,7 +177,6 @@ def send_message(recipient_id, message_text):
 
 [The tutorial I'm using](https://blog.hartleybrody.com/fb-messenger-bot/)
 [Flask Documentation](http://flask.pocoo.org)
-
 
 
 
