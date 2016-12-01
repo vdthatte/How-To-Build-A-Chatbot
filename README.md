@@ -177,7 +177,7 @@ def send_message(recipient_id, message_text):
 
 ### Other References
 
-[The tutorial I'm using](https://blog.hartleybrody.com/fb-messenger-bot/)
+[The tutorial I'm using](https://blog.hartleybrody.com/fb-messenger-bot/) <br>
 [Flask Documentation](http://flask.pocoo.org)
 
 
