@@ -31,7 +31,7 @@ Click on this [Link](https://developers.facebook.com/quickstarts/?platform=web) 
 
 #### 3. Install Dependencies
 
-Navigate into the downloaded folder using ```python cd```
+Navigate into the downloaded folder using ```cd``` and once you reach the root folder run the following command in your terminal or cmd
 
 ```python 
 pip install -r requirements.txt
@@ -53,13 +53,17 @@ if __name__ == "__main__":
 
 ```
 
-Open localhost:5000
+Open ```localhost:5000``` in your browser. And you'll see "Hello World"
+
+Now, go to your root folder and run the command below.
 
 ```python
 
 ./ngrok http 5000
 
 ```
+
+Now, the whole world can see "Hello World" if they use the link ;)
 
 
 ###  Code Breakdown
