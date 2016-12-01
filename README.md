@@ -31,7 +31,7 @@ Click on this [Link](https://developers.facebook.com/quickstarts/?platform=web) 
 
 #### 3. Install Dependencies
 
-Navigate into the downloaded folder using ```cd``` and once you reach the root folder run the following command in your terminal or cmd
+Navigate into the downloaded folder using ```cd``` and once you reach the root folder run the following command in your terminal.
 
 ```python 
 pip install -r requirements.txt
@@ -70,6 +70,8 @@ Now, the whole world can see "Hello World" if they use the link ;)
 
 #### verify() method
 
+This method is used only once. It's for Facebook to check if the link you've given it is valid or not.
+
 ```python
 
 @app.route('/', methods=['GET'])
@@ -87,6 +89,8 @@ def verify():
 
 
 #### webhook() method
+
+This is the main method that recieves user's messages.
 
 ```python
 
@@ -132,6 +136,7 @@ def webhook():
 
 #### send_message() method
 
+This is the methos that sends messages back to Facebook.
 
 ```python
 
@@ -166,8 +171,10 @@ def send_message(recipient_id, message_text):
 ```
 
 
-### Other
+### Other References
 
+[The tutorial I'm using](https://blog.hartleybrody.com/fb-messenger-bot/)
+[Flask Documentation](http://flask.pocoo.org)
 
 
 
