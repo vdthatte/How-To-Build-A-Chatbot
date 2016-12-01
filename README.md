@@ -54,6 +54,7 @@ if __name__ == "__main__":
     app.run()
 
 ```
+Run the following command, ```python hello_world.py```
 
 Open ```localhost:5000``` in your browser. And you'll see "Hello World"
 
@@ -138,7 +139,7 @@ def webhook():
 
 #### send_message() method
 
-This is the methos that sends messages back to Facebook.
+This is the method that sends messages back to Facebook.
 
 ```python
 
@@ -171,6 +172,7 @@ def send_message(recipient_id, message_text):
 
 
 ```
+
 
 
 ### Other References
