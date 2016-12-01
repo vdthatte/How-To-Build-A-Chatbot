@@ -1,5 +1,7 @@
-# How To Build A Chatbot - Part 1
+# How To Build A Chatbot - Part 1 🔥
 Learn to build a facebook chatbot using Python and Flask ( work in progress... )
+
+We'll get to [Part 2]() if we have enough time.
 
 ### Table of Contents
 
@@ -19,15 +21,15 @@ Learn to build a facebook chatbot using Python and Flask ( work in progress... )
   
 ### Create a Facebook Page
 
-#### Now Create a Facebook App 
-Click on this [Link](https://developers.facebook.com/quickstarts/?platform=web) to access FB's developer's console.
-
+After you've created a page, click on this to create a Facebook App [Link](https://developers.facebook.com/quickstarts/?platform=web) to access FB's developer's console.
 
 ### Stuff to install and setup
 
 #### Prereq: Make sure you have python installed on your laptop
 
 #### 2. Download Project Files
+
+You can download the files [here]()
 
 #### 3. Install Dependencies
 
