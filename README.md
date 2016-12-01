@@ -174,12 +174,12 @@ def send_message(recipient_id, message_text):
 
 
 
-### Other References
+### Useful References
 
-[The tutorial I'm using](https://blog.hartleybrody.com/fb-messenger-bot/) <br>
+[Here's another tutorial](https://blog.hartleybrody.com/fb-messenger-bot/) <br>
 [Flask Documentation](http://flask.pocoo.org)<br>
 [read more abour ngrok](https://ngrok.com)<br>
-
+[Read about get and most requests](http://www.w3schools.com/tags/ref_httpmethods.asp)
 
 
 
